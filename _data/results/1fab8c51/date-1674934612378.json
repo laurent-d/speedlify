@@ -1,0 +1,67 @@
+{
+  "url": "https://www.eventmaker.com/",
+  "requestedUrl": "https://www.eventmaker.com/",
+  "timestamp": 1674934910177,
+  "ranks": {
+    "hundos": 8,
+    "performance": 7,
+    "accessibility": 5,
+    "cumulative": 8
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.38,
+    "accessibility": 0.98,
+    "bestPractices": 0.75,
+    "seo": 0.89,
+    "total": 300
+  },
+  "firstContentfulPaint": 4625.858,
+  "firstMeaningfulPaint": 6106.318,
+  "speedIndex": 8311.878013680283,
+  "largestContentfulPaint": 7863.314,
+  "totalBlockingTime": 502,
+  "cumulativeLayoutShift": 0.03532949044969347,
+  "timeToInteractive": 13225.8645,
+  "maxPotentialFirstInputDelay": 441,
+  "timeToFirstByte": 820.3240000000001,
+  "weight": {
+    "summary": "84 requests • 1,701 KiB",
+    "total": 1741842,
+    "image": 425670,
+    "imageCount": 32,
+    "script": 727752,
+    "scriptCount": 17,
+    "document": 29741,
+    "font": 300572,
+    "fontCount": 15,
+    "stylesheet": 129010,
+    "stylesheetCount": 7,
+    "thirdParty": 1712101,
+    "thirdPartyCount": 83
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 6,
+    "+weight.total": 3,
+    "-weight.document": 5,
+    "+weight.document": 4,
+    "-weight.script": 7,
+    "+weight.script": 2,
+    "-weight.image": 4,
+    "+weight.image": 5,
+    "-weight.font": 8,
+    "+weight.font": 1,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 8,
+    "-totalBlockingTime": 6,
+    "-largestContentfulPaint": 5
+  },
+  "axe": {
+    "passes": 1382,
+    "violations": 6
+  }
+}

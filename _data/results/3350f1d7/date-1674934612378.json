@@ -1,0 +1,67 @@
+{
+  "url": "https://www.losangexpo.com/",
+  "requestedUrl": "https://www.losangexpo.com/",
+  "timestamp": 1674934703041,
+  "ranks": {
+    "hundos": 6,
+    "performance": 4,
+    "accessibility": 7,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.51,
+    "accessibility": 0.93,
+    "bestPractices": 0.92,
+    "seo": 0.91,
+    "total": 327
+  },
+  "firstContentfulPaint": 5311.912,
+  "firstMeaningfulPaint": 5688.2845,
+  "speedIndex": 6681.632532916428,
+  "largestContentfulPaint": 15780.448,
+  "totalBlockingTime": 136,
+  "cumulativeLayoutShift": 0.0011411632961697048,
+  "timeToInteractive": 9055.637,
+  "maxPotentialFirstInputDelay": 222,
+  "timeToFirstByte": 245.27300000000002,
+  "weight": {
+    "summary": "28 requests • 2,668 KiB",
+    "total": 2732018,
+    "image": 1816757,
+    "imageCount": 5,
+    "script": 490747,
+    "scriptCount": 12,
+    "document": 64170,
+    "font": 133895,
+    "fontCount": 3,
+    "stylesheet": 69555,
+    "stylesheetCount": 5,
+    "thirdParty": 2667848,
+    "thirdPartyCount": 27
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 8,
+    "+weight.total": 1,
+    "-weight.document": 6,
+    "+weight.document": 3,
+    "-weight.script": 5,
+    "+weight.script": 4,
+    "-weight.image": 8,
+    "+weight.image": 1,
+    "-weight.font": 6,
+    "+weight.font": 3,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 2,
+    "-largestContentfulPaint": 7
+  },
+  "axe": {
+    "passes": 1020,
+    "violations": 35
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "url": "https://www.toushanscene.fr/",
+  "requestedUrl": "https://www.toushanscene.fr/",
+  "timestamp": 1674934922000,
+  "ranks": {
+    "hundos": 5,
+    "performance": 6,
+    "accessibility": 6,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "9.6.8",
+    "performance": 0.46,
+    "accessibility": 0.96,
+    "bestPractices": 1,
+    "seo": 0.91,
+    "total": 333
+  },
+  "firstContentfulPaint": 4916.495,
+  "firstMeaningfulPaint": 4916.495,
+  "speedIndex": 7872.942554666413,
+  "largestContentfulPaint": 11979.602,
+  "totalBlockingTime": 221,
+  "cumulativeLayoutShift": 0.06532035827636717,
+  "timeToInteractive": 11453.904999999999,
+  "maxPotentialFirstInputDelay": 166,
+  "timeToFirstByte": 449.46000000000004,
+  "weight": {
+    "summary": "64 requests • 1,567 KiB",
+    "total": 1604993,
+    "image": 701639,
+    "imageCount": 32,
+    "script": 640271,
+    "scriptCount": 16,
+    "document": 66260,
+    "font": 117960,
+    "fontCount": 6,
+    "stylesheet": 77821,
+    "stylesheetCount": 5,
+    "thirdParty": 1538733,
+    "thirdPartyCount": 63
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 5,
+    "+weight.total": 4,
+    "-weight.document": 7,
+    "+weight.document": 2,
+    "-weight.script": 6,
+    "+weight.script": 3,
+    "-weight.image": 5,
+    "+weight.image": 4,
+    "-weight.font": 5,
+    "+weight.font": 4,
+    "+weight.fontCount": 3,
+    "-timeToFirstByte": 7,
+    "-totalBlockingTime": 4,
+    "-largestContentfulPaint": 6
+  },
+  "axe": {
+    "passes": 656,
+    "violations": 12
+  }
+}
