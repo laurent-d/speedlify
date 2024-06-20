@@ -12,6 +12,7 @@
 		</script>
 	</head>
 	<body>
+		<header>
 		<h1 class="speedlify-hed"><a href="{{ '/' | url }}">Speed Index</a>{% if vertical %} : {{ vertical }}{% endif %}</h1>
 		{# <p class="speedlify-subhed">
 			Benchmark {{ sites[vertical].description or "web pages" }} over time.
@@ -26,8 +27,11 @@
 		<p class="speedlify-subhed">
 			<a href="https://github.com/zachleat/speedlify/#deploy-to-netlify">Deploy your own instance of Speedlify and test your web sites</a>.
 		</p> #}
+		</header>
 
-		{{ content | safe }}
+		<main>
+			{{ content | safe }}
+		</main>
 
 		<footer>
 			MIT licensed. Read <a href="https://www.zachleat.com/web/speedlify/">the blog post</a>. Source code on <a href="https://github.com/zachleat/speedlify/">GitHub</a>. Created by <a href="https://www.zachleat.com/">@zachleat</a>.

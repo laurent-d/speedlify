@@ -57,7 +57,7 @@ summary {
 	word-break: break-all;
 	word-break: break-word;
 }
-@media (min-width: 37.5em) { /* 600px */
+@media (min-width: 60em) { /* 960px */
 	.url {
 		font-size: 1.25em; /* 20px /16 */
 	}
@@ -226,7 +226,7 @@ abbr {
 		display: none;
 	}
 }
-@media (max-width: 63.9375em) { /* 1023px */
+@media (max-width: 72em) { /* 1152px */
 	.leaderboard-hide-md {
 		display: none;
 	}
@@ -353,12 +353,8 @@ abbr {
 	font-weight: 600;
 	line-height: 1;
 }
-.leaderboard-score-circles .speedlify-summary {
-	display: none;
-}
-.leaderboard-score-circles-400 .speedlify-score {
-	border-color: currentColor;
-	color: #bcffc2;
+.leaderboard-score-circles-400 {
+	--speedlify-circle: #bcffc2;
 }
 @media (min-width: 37.5em) { /* 600px */
 	.leaderboard-score-circles .speedlify-score {
@@ -370,6 +366,9 @@ abbr {
 /* Score Cell RWD */
 .leaderboard-score{
 	white-space: nowrap;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 th.leaderboard-score span{
 	width: 4.1rem;
